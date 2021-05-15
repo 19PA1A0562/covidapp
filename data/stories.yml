@@ -1,0 +1,90 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: general information
+  steps:
+  - intent: Genernal_infomation
+  - action: utter_Genernal_infomation
+
+- story: Home isolation
+  steps:
+   - intent: Home_isolation
+   - action: utter_Home_isolation
+
+- story: epass
+  steps:
+   - intent: epass
+   - action: utter_epass
+
+- story: doctors_morning
+  steps:
+   - intent: doctors_morning
+   - action: utter_doctors_morning
+
+- story: doctors_afternoon
+  steps:
+   - intent: doctors_afternoon
+   - action: utter_doctors_afternoon
+
+- story: doctors_evening
+  steps:
+   - intent: doctors_evening
+   - action: utter_doctors_evening
+
+- story: doctors_night
+  steps:
+   - intent: doctors_night
+   - action: utter_doctors_night
+
+- story: N-Medicines
+  steps:
+   - intent: N-Medicines
+   - action: utter_N-Medicines
+
+- story: Apollo
+  steps:
+   - intent: Apollo
+   - action: utter_Apollo
+
+- story: Hospitals
+  steps:
+   - intent: Hospitals
+   - action: utter_Hospitals
+
+- story: Food_supplies
+  steps:
+   - intent: Food_supplies
+   - action: utter_Food_supplies
+
+- story: Plamsa
+  steps:
+   - intent: Plasma
+   - action: utter_Plasma

@@ -1,0 +1,167 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Genernal_infomation
+  examples: |
+    - I am running fever for three days, should I go for RT-PCR/Rapid Antigen Test/CBNAAT?
+    - I am running fever for 3 days, and my RT-PCR result for COVID 19 is positive. What all should I do? 
+    - Which tests and what medicine should I take?
+    - Self-care
+    - General Information
+    
+- intent: Home_isolation
+  examples: |
+    - I am running fever for three days, should I go for RT-PCR/Rapid Antigen Test/CBNAAT?
+    - I am running fever for 3 days, and my RT-PCR result for COVID 19 is positive. What all should I do? 
+    - Which tests and what medicine should I take?
+    - self-care Guide
+    - Measures to be taken in Home Isolation when affected with covid
+
+- intent: epass
+  examples: |
+    - epass 2021
+    - ONLINE DATA SUBMISSION FOR POLICE APPROVAL FOR LOCK DOWN PASS FOR TELANGANA STATE
+    - citizen print pass for telegana
+    - Admin login for epass
+    - Lock down pass for telangana state
+  
+- intent: doctors_morning
+  examples: |
+    - doctors available from 8am to 12 noon
+    - grant me phone numbers of the doctors available in morning time
+
+- intent: doctors_afternoon
+  examples: |
+    - doctors available from 12pm to 4pm
+    - grant me phone numbers of the doctors available in afternoon time
+
+- intent: doctors_evening
+  examples: |
+    - doctors available from 4pm to 8pm
+    - grant me phone numbers of the doctors available in evening time
+  
+- intent: doctors_night
+  examples: |
+    - doctors available from 8pm to 11pm
+    - grant me phone numbers of the doctors available in night time
+
+- intent: N-Medicines
+  examples: |
+     - Please provide the website to buy medicines
+     - I want to buy medicines suggest any medicine-website
+     - Medicines
+
+- intent: Apollo
+  examples: |
+      - Please provide the Apollo medicine website link
+      - Apollo Medicines
+      - I want to buy Apollo medicines online for covid
+
+- intent: Hospitals
+  examples: |
+      - Provide  hospital list for covid treatment in telangana
+      - Show the location of the Hospitals in telangana
+      - Hospitals
+      - Covid Hospitals in telangana
+
+- intent: Food_supplies
+  examples: |
+      - Food Supplies
+      - Phone numbers of Food Supplies
+      - Food Supplies for covid19
+- intent: Plasma
+  examples: |
+      - Plasma Donators
+      - Details of Plasma Donators
+      
+

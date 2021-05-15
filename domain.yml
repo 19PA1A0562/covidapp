@@ -1,0 +1,83 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Genernal_infomation
+  - Home_isolation
+  - epass
+  - doctors_morning
+  - doctors_afternoon
+  - doctors_evening
+  - doctors_night
+  - N-Medicines
+  - Apollo
+  - Hospitals
+  - Food_supplies
+  - Plasma
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_Genernal_infomation:
+  - text: "Check out this link https://tinyurl.com/3nvx7n3s"
+
+  utter_Home_isolation:
+  - text: "Follow the measures given in this link https://tinyurl.com/3nvx7n3s"
+
+  utter_epass:
+  - text: "Check this link for epass 2021 https://policeportal.tspolice.gov.in/Covid_Pass_reg.htm"
+  
+  utter_doctors_morning:
+  - text: "Doctors who are available in the morning time :\n Dr. Tushar Shah - 9321469911\n Dr. M.Bhatt - 9320407074\n Dr. D.Doshi - 9820237951\n Dr. D.Rathod - 8879148679\n Dr. R.Gwalani - 8779835257\n Dr. D.Kansara - 8369846412"
+
+  utter_doctors_afternoon:
+  - text: "Doctors who are available in afternoon time :\n Dr. G.Kamath - 9136575405\n Dr. S.Manglik - 9820222384\n Dr .J.Jain - 7021092685\n Dr. A.Thakkar - 9321470745\n Dr. L.Bhagat - 9820732570\n Dr. N.Shan - 9821140656\n Dr. S.Phanse - 8779328220\n Dr. J.Shan - 9869031354"
+
+  utter_doctors_evening:
+  - text: "Doctors who are available in the evening time(4pm to 8pm) :\n Dr. N.Zaveri - 9321489748\n Dr. S.Ansari - 7045720278\n Dr. L.Kedia - 9321470560\n Dr. B.Shukla - 9321489060\n Dr. S.Halwai-9867379346\n Dr. M.Kotian - 8928650290"
+
+  utter_doctors_night:
+  - text: "Doctors who are available during night (8pm to 11pm) :\nDR. N.Kumar - 8104605550\n Dr. P.Bhargav - 9892135010\n Dr. B.kharat - 9969471815\n Dr. S.Dhulekar - 9892139027\n Dr. S.Pandit - 9422473277"
+
+  utter_N-Medicines:
+  - text: "Have a look at this link: https://nmedicines.in/allopathy/covid-care.html"
+
+  utter_Apollo:
+  - text: "Take a look at this link: https://www.apollo247.com/medicine/shop-by-health-conditions/corona-virus-care"
+
+  utter_Hospitals:
+  - text: "Hospitals in Telangana: \n 1.Gandhi General Hospital - Secunderabad  Location - https://goo.gl/maps/o2vjzWpWrVTCLQ7T7\n 2.Government General and Chest Hospital - Hyderabad  Location - https://goo.gl/maps/7W57qLk6ZCo4dKTV8\n 3.Fever Hospital - Nallakunta  Location - https://goo.gl/maps/jPqkwudFPStXH8CW9\n 4.MGM Hospital - Warangal Location - https://goo.gl/maps/HSRMdyrk33H9jAw49\n 5.RIMS - Adilabad  Location - https://goo.gl/maps/6GLwVBM7Lx83rkf87\n 6.District Hospital - Khammam  Location - https://goo.gl/maps/txkPeikerNoayRWY8\n 7.District Hospital - Karimnagar  Loaction - https://goo.gl/maps/aKKF65J1jxnxxNnM8\n 8.Governmeant General Hospital- Nalgonda  Location - https://goo.gl/maps/TEroMYUQ7bYNtdnu8\n 9.Government General Hospital - Suryapet  Location - https://goo.gl/maps/RVjaBefgDHqokaXe6\n 10.Government General Hospital - Siddipet  Location - https://goo.gl/maps/QJNVeRjCX4Gz4gyR7\n 11.Government General Hospital - Mahbubnagar Location - https://goo.gl/maps/Sp6rRmefoUxS4rtg9"
+
+  utter_Food_supplies:
+  - text: "Details of Food Supplies :\n ESI - 8019818052\n Ecil Industrial area - 7396360370\n Yousufguda Ward Office - 9703243413\n Begumpet - 9948465688\n Srinilayam,Sagar Road - 7995568935\n State Central Library - 8790035193
+          \n Uppal - 9010839823\n Erragadda - 9059550586\n Dabirpura - 9393078532\n Bowenpally ps - 9550904895\n Gunti Jangaiha Colony - 6300850878\n Jagithgiri GUtta - 6303889301\n Mallapur - 630512797\n Parvath nagar - 7032062714\n Mangalhut - 7306886262\n Yellamabanda KP - 7337538612\n Koti maternity Center- 77021590901
+          \n Is Sadan - 7893213434\n Nampally area Hospital - 7893399167\n Gandhi center - 8686067397\n Masab tank - 8977222513\n West maredpally - 905900459\n Suraram - 9290678304\n L.b.nagar - 9440216695\n Ayodya nagar,Kapra - 9666117873\n P&T colony Chowrastha - 9666378130\n Krishna nagar - 9700060033\n East Anand Bagh - 9705071106\n Chinthal - 9951914227\n LalBazar - 9966829168\n Meerpet HB colony - 8801750588\n Sanath nagar - 9959853435\n Ram Koti - 7032179021\n Gode Ki Khaber - 7337069400\n Alicafe amberpet - 7731912929\n Langar house - 7842124663\n Suchitra X roads - 7893300019\n"
+  
+  utter_Plasma:
+  - text: "Plasma Donars :\n Suresh Kumar - 9840939939\n Aravind - 9176980878\n Manikandan - 9791097653\n C.Prathap - 9940521093\n Isaianand - 7845548466\n S.Thilak - 861810723\n Anbumani - 9566001676\n Karthikevan - 9884400371\n Sridhar - 9500119761\n V.Mohan - 9940639557"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
